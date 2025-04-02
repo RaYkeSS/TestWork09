@@ -1,12 +1,10 @@
-# Погодное приложение
+# Приложение с Прогнозом погоды
 
-Современное погодное приложение, построенное с использованием Next.js 14, TypeScript и OpenWeatherMap API.
+## Стек
 
-## Технологии
-
-- Next.js 14 (App Router)
-- TypeScript 5.3
-- Zustand для state management
+- Next.js (App Router)
+- TypeScript
+- Zustand
 - Axios + OpenWeatherMap API
 - SCSS Modules + Bootstrap
 - ESLint + Prettier + Stylelint
@@ -17,9 +15,7 @@
 - Отображение текущей погоды
 - Прогноз погоды на 5 дней
 - Избранные города
-- Адаптивный дизайн
 - Скелетоны при загрузке
-- Обработка ошибок
 
 ## Установка
 
@@ -48,7 +44,7 @@ NEXT_PUBLIC_OWM_KEY=your_api_key
 npm run dev
 ```
 
-5. Откройте [http://localhost:3000](http://localhost:3000) в вашем браузере.
+5. Откройте [http://localhost:3000](http://localhost:3000).
 
 ## Скрипты
 
@@ -56,30 +52,6 @@ npm run dev
 - `npm run build` - сборка для продакшена
 - `npm run start` - запуск собранного приложения
 - `npm run lint` - проверка кода линтерами
+-  `npm run lint:style` - проверка стилей линтерами
 - `npm run type-check` - проверка типов TypeScript
 - `npm run analyze` - анализ бандла
-
-## Структура проекта
-
-```
-src/
-├── app/
-│   ├── (main)/
-│   │   ├── layout.tsx
-│   │   ├── page.tsx
-│   │   └── forecast/
-│   └── api/
-├── stores/
-│   └── weather.store.ts
-├── services/
-│   └── weather.api.ts
-├── types/
-│   └── weather.d.ts
-└── components/
-    ├── WeatherCard/
-    └── SearchBar/
-```
-
-## Лицензия
-
-MIT
