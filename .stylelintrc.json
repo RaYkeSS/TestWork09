@@ -1,0 +1,10 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "selector-class-pattern": "^[a-z][a-zA-Z0-9]+$",
+    "no-descending-specificity": null,
+    "scss/at-import-partial-extension": "always",
+    "scss/dollar-variable-pattern": "^[a-z][a-zA-Z0-9]+$",
+    "scss/selector-no-redundant-nesting-selector": true
+  }
+}
